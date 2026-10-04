@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Meal Type"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actvMealType"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/bg_input_field"
+        android:inputType="none"
+        android:paddingHorizontal="12dp"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Asian Food Menu"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actvAsianFood"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/bg_input_field"
+        android:inputType="none"
+        android:paddingHorizontal="12dp"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Calories (kcal)"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etCustomCalories"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_input_field"
+        android:hint="300"
+        android:inputType="number"
+        android:paddingHorizontal="12dp"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyHealth" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/emerald_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/emerald_light</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Background & Surface -->
+        <item name="android:windowBackground">@color/background_light</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/emerald_dark</item>
+    </style>
+</resources>

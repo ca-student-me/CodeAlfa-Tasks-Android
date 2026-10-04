@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#B3004834" /> <!-- Semi-transparent professional dark emerald glass effect -->
+    <corners android:radius="16dp" />
+    <stroke android:width="1dp" android:color="#4D34D399" />
+</shape>

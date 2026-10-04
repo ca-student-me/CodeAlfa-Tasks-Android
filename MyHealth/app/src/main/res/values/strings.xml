@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Health</string>
+    <string name="tagline">Don\'t Compromise Your Health . . .</string>
+    <string name="splash_title">My Health</string>
+
+    <!-- Profile Setup Strings -->
+    <string name="profile_title">Personal &amp; Health Profile</string>
+    <string name="profile_subtitle">Tell us about yourself to personalize your health journey.</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="label_contact">Contact Number</string>
+    <string name="label_email">Email Address</string>
+    <string name="label_country">Country</string>
+    <string name="label_gender">Biological Sex</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+    <string name="label_age">Age</string>
+    <string name="label_height">Height (cm)</string>
+    <string name="label_current_weight">Current Weight (kg)</string>
+    <string name="label_target_weight">Target Weight (kg)</string>
+    <string name="label_activity_level">Activity Level</string>
+    <string name="label_fitness_goal">Primary Fitness Goal</string>
+    <string name="btn_save_profile">Save Profile</string>
+    <string name="btn_update_profile">Update Profile</string>
+    <string name="error_empty_field">This field cannot be empty</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+
+    <!-- Main Dashboard Strings -->
+    <string name="greeting_format">Hello, %1$s</string>
+    <string name="nav_edit_profile">Edit Profile</string>
+    <string name="daily_summary_title">Daily Health Summary</string>
+    <string name="steps_label">Steps</string>
+    <string name="water_label">Water</string>
+    <string name="calories_label">Calories</string>
+    <string name="bmi_title">Body Mass Index (BMI)</string>
+    <string name="quick_actions_title">Quick Actions</string>
+    <string name="action_log_water">Log Water</string>
+    <string name="action_log_steps">Log Steps</string>
+    <string name="action_update_metrics">Update Metrics</string>
+</resources>

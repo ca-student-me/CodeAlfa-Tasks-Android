@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Blood Pressure -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Blood Pressure (Systolic / Diastolic)"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etBp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/bg_input_field"
+            android:hint="120/80"
+            android:inputType="text"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp" />
+
+        <!-- Blood Sugar -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Blood Sugar (mg/dL)"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etSugar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/bg_input_field"
+            android:hint="90"
+            android:inputType="text"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp" />
+
+        <!-- Push-ups -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Push-ups Count"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPushups"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/bg_input_field"
+            android:hint="20"
+            android:inputType="number"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp" />
+
+        <!-- Pull-ups -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Pull-ups Count"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPullups"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/bg_input_field"
+            android:hint="5"
+            android:inputType="number"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp" />
+
+        <!-- Running -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Running Distance (km)"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etRunning"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_input_field"
+            android:hint="2.0"
+            android:inputType="numberDecimal"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>
