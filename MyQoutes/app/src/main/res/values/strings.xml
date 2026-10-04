@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Quote</string>
+    <string name="new_quote">New Quote</string>
+    <string name="add_quote">Add Quote</string>
+    <string name="settings">Settings</string>
+    <string name="custom_quote_badge">My Quote</string>
+    <string name="preset_quote_badge">Daily Inspiration</string>
+
+    <!-- Add Quote Dialog -->
+    <string name="add_new_quote_title">Add New Quote</string>
+    <string name="quote_text_hint">Quote Text</string>
+    <string name="author_name_hint">Author Name (Optional)</string>
+    <string name="quote_required_error">Quote text cannot be empty</string>
+    <string name="save_quote">Save Quote</string>
+    <string name="quote_saved_success">Quote saved successfully!</string>
+
+    <!-- Settings -->
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="daily_reminder_desc">Receive an inspiring quote every day at your preferred time.</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="quote_statistics">Quote Library Statistics</string>
+    <string name="total_quotes">Total Quotes</string>
+    <string name="preset_quotes">Preset Quotes</string>
+    <string name="user_quotes">User Quotes</string>
+    <string name="select_time">Select Reminder Time</string>
+
+    <!-- Notifications & Diagnostics -->
+    <string name="notification_permission_title">Notification Permission</string>
+    <string name="notification_permission_desc">Enable notifications to receive your daily inspirational quote.</string>
+    <string name="test_notification_title">Notification Diagnostics</string>
+    <string name="test_notification_desc">Send a test notification to verify delivery on your phone.</string>
+    <string name="test_notification_btn">Send Test Notification</string>
+    <string name="exact_alarm_permission_title">Exact Alarm Timing</string>
+    <string name="exact_alarm_permission_desc">Required on Android 12+ to deliver quote at exact time.</string>
+    <string name="notification_status_granted">Granted</string>
+    <string name="notification_status_action_needed">Settings Needed</string>
+    <string name="test_notification_success">Test notification sent!</string>
+    <string name="test_notification_failed">Notifications are blocked in system settings.</string>
+
+    <!-- About App & Developer -->
+    <string name="about_app_developer">About App &amp; Developer</string>
+    <string name="app_description">A clean, distraction-free daily inspiration app designed to deliver wisdom and positive thoughts every day.</string>
+    <string name="app_version_label">Version</string>
+    <string name="developer_label">Developer</string>
+    <string name="developer_name">Syed Muhammad Sajawal Hussain</string>
+    <string name="contact_label">Contact</string>
+    <string name="contact_value">0328-0841432</string>
+    <string name="email_label">Email</string>
+    <string name="email_value">syedmuhammadsajawalhussain@gmail.com</string>
+    <string name="tech_stack_label">Architecture</string>
+    <string name="tech_stack_value">Java • SQLite • Material 3</string>
+</resources>
