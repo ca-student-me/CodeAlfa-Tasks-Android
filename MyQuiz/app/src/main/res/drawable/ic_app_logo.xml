@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="140dp"
+    android:height="140dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Card Background Shadow / Back Card -->
+    <path
+        android:fillColor="#93C5FD"
+        android:pathData="M24,20 h52 a8,8 0 0,1 8,8 v52 a8,8 0 0,1 -8,8 h-52 a8,8 0 0,1 -8,-8 v-52 a8,8 0 0,1 8,-8 z" />
+
+    <!-- Main Front Card -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M16,12 h52 a8,8 0 0,1 8,8 v52 a8,8 0 0,1 -8,8 h-52 a8,8 0 0,1 -8,-8 v-52 a8,8 0 0,1 8,-8 z" />
+
+    <!-- Inner Card Surface -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,18 h40 a4,4 0 0,1 4,4 v40 a4,4 0 0,1 -4,4 h-40 a4,4 0 0,1 -4,-4 v-40 a4,4 0 0,1 4,-4 z" />
+
+    <!-- Question Symbol on Front Card -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M42,26 c-4.42,0 -8,3.58 -8,8 h4 c0,-2.21 1.79,-4 4,-4 s4,1.79 4,4 c0,2.21 -3,3.5 -3,6.5 h4 c0,-2 3,-3 3,-6.5 c0,-4.42 -3.58,-8 -8,-8 z M40,46 h4 v4 h-4 z" />
+
+</vector>
